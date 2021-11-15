@@ -13,10 +13,11 @@ namespace BattleShip_Game_ServiceLayer
         public bool Istaken()
         {
             return SquareType == SquareType.Carrier
-                || SquareType == SquareType.Destroyer;           
+                || SquareType == SquareType.Destroyer;
         }
 
         public Coordinates Coordinates { get; set; }
+
         public SquareType SquareType { get; set; }
 
         public string Status

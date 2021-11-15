@@ -2,7 +2,7 @@
 {
     public enum ShipType
     {
-        Carrier = 'C',      
+        Carrier = 'C',
         Destroyer = 'D'
     }
 }

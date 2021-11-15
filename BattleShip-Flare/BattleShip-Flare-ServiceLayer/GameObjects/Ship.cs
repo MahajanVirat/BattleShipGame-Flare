@@ -2,7 +2,7 @@
 
 namespace BattleShip_Game_ServiceLayer.Services
 {
-    public class Ship 
+    public class Ship
     {
         public string Name { get; set; }
         public int ShipSize { get; set; }
@@ -25,12 +25,12 @@ namespace BattleShip_Game_ServiceLayer.Services
     }
 
     internal class DestroyerShip : Ship
-    {     
+    {
         public DestroyerShip(string Name, int ShipSize)
         {
             this.Name = Name;
             this.ShipSize = ShipSize;
             ShipType = ShipType.Destroyer;
-        }       
+        }
     }
 }

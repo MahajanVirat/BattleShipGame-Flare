@@ -1,6 +1,6 @@
-﻿using System.Collections.Generic;
+﻿using BattleShip_Game_ServiceLayer.Enums;
 using BattleShip_Game_ServiceLayer.Services;
-using BattleShip_Game_ServiceLayer.Enums;
+using System.Collections.Generic;
 
 namespace BattleShip_Game_ServiceLayer.Interfaces
 {
@@ -11,8 +11,9 @@ namespace BattleShip_Game_ServiceLayer.Interfaces
         public List<Ship> Ships { get; set; }
         public void ShowBoards();
         public bool HasLost
-        { get;           
+        {
+            get;
         }
-        public  Result SpotShot(Coordinates coordinates);    //Player1 will spot the shot  of player2 and vice versa
+        public Result SpotShot(Coordinates coordinates);    //Player1 will spot the shot  of player2 and vice versa
     }
 }

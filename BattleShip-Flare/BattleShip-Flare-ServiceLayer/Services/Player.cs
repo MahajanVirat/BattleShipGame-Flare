@@ -4,7 +4,6 @@ using BattleShip_Game_ServiceLayer.Interfaces;
 using System;
 using System.Collections.Generic;
 using System.Linq;
-using System.Text;
 
 namespace BattleShip_Game_ServiceLayer.Services
 {
@@ -16,7 +15,7 @@ namespace BattleShip_Game_ServiceLayer.Services
         public Player(string _Name)
         {
             PlayerName = _Name;
-            PlayBoard = new PlayBoard();
+            PlayBoard = new PlayBoard(10,10);/*Creates a 10 X 10 Playboard*/
             Ships = new List<Ship>() {
                 new CarrierShip("CarrierShip",4),
                 new DestroyerShip("DestroyerShip",2)
@@ -26,14 +25,18 @@ namespace BattleShip_Game_ServiceLayer.Services
         }
 
         public string PlayerName { get; set; }
+
         public PlayBoard PlayBoard { get; set; }
+
         public List<Ship> Ships { get; set; }
-      
-        // This Method will Randomly places ships on the Board either Vertically(endRow = Shipsize)  or Horizontaly(endCol = Shipsize) 
-        //Ships should not intersect each other
-        //Ship size should not exceed 1 X N where N <= 10 and should not lie outside the Board
-        //Check squares should not be occupied - before placing the ship
-        //Choose a Random Orientation of Ship and choose a random squares to place the ship based on the ship size
+
+        /*
+        1 This Method will Randomly places ships on the Board either Vertically(endRow = Shipsize)  or Horizontaly(endCol = Shipsize) 
+        2 Ships should not intersect each other
+        3 Ship size should not exceed 1 X N where N <= 10 and should not lie outside the Board
+        4 Check squares should not be occupied - before placing the ship
+        5 Choose a Random Orientation of Ship and choose a random squares to place the ship based on the ship size
+        */
         private void SetupShipsOnBoard()
         {
             Random random = new Random();
@@ -48,17 +51,17 @@ namespace BattleShip_Game_ServiceLayer.Services
                     int endRow = startRow;
                     int endColumn = startColumn;
 
-                    int shipOrientation = random.Next(1, PlayBoard.Squares.Count + 1) % 2; //Vertical or Horizontal
+                    int shipOrientation = random.Next(1, PlayBoard.Squares.Count + 1) % 2; /*Vertical or Horizontal*/
 
-                    if (shipOrientation == 0) //Place the ship Vertical
+                    if (shipOrientation == 0) /*Place the ship Vertical*/
                     {
                         endRow = endRow + ship.ShipSize - 1;
                     }
-                    else ////Place the ship Horizontal
+                    else /*Place the ship Horizontal*/
                     {
                         endColumn = endColumn + ship.ShipSize - 1;
                     }
-                    //Ships cannot be placed outside the Board
+                    /*Ships cannot be placed outside the Board*/
                     if (endColumn > 10 || endRow > 10)
                     {
                         shipPlaced = false;
@@ -83,6 +86,7 @@ namespace BattleShip_Game_ServiceLayer.Services
                 }
             }
         }
+
         public Result SpotShot(Coordinates coordinates)
         {
             Square square = PlayBoard.Squares.First(x => x.Coordinates.Row == coordinates.Row && x.Coordinates.Column == coordinates.Column);
@@ -97,9 +101,7 @@ namespace BattleShip_Game_ServiceLayer.Services
             }
 
             Ship ship = Ships.First(x => (SquareType)x.ShipType == square.SquareType);
-
             square.SquareType = SquareType.HIT;
-
             ship.Hits++;
 
             Console.WriteLine(PlayerName + " says: It's a Hit");
@@ -110,6 +112,7 @@ namespace BattleShip_Game_ServiceLayer.Services
             }
             return Result.HIT;
         }
+
         public void ShowBoards()
         {
             Console.WriteLine(PlayerName + "'s Board:");
@@ -122,6 +125,7 @@ namespace BattleShip_Game_ServiceLayer.Services
                 Console.WriteLine(Environment.NewLine);
             }
         }
+
         public bool HasLost => Ships.All(x => x.IsSunk());
     }
 }

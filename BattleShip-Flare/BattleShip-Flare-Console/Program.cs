@@ -9,7 +9,7 @@ namespace BattleShip_Game
         static void Main(string[] args)
         {
             IPlayer player1 = new Player("Virat");
-            IPlayer player2 = new Player("Reza");
+            IPlayer player2 = new Player("John");
 
             IGamePlay gamePlay = new GamePlay
             {
