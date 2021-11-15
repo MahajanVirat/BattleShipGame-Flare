@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v3.1",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v3.1": {
+      "BattleShip-Flare-ServiceLayer/1.0.0": {
+        "runtime": {
+          "BattleShip-Flare-ServiceLayer.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "BattleShip-Flare-ServiceLayer/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

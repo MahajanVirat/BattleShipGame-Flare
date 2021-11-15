@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "+2s2LlCdg2kQ/lH+OTg2G/AZrdZf2pSjISnK+tLv8x+obGpqs27FVEIVh9ktkq8FGKiFUR/EKxPCmmuw6ZC3TA==",
+  "success": true,
+  "projectFilePath": "C:\\Dev\\Virat\\BattleShip-Flare\\BattleShip-Flare\\BattleShip-Flare-Console\\BattleShip-Flare-Console.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\v.mahajan\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\3.1.18\\microsoft.netcore.app.host.win-x64.3.1.18.nupkg.sha512"
+  ],
+  "logs": []
+}

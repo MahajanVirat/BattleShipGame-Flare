@@ -1,0 +1,16 @@
+C:\Dev\Virat\BattleShip-Flare\BattleShip-Flare\BattleShip-Flare-Console\bin\Debug\netcoreapp3.1\BattleShip-Flare-Console.exe
+C:\Dev\Virat\BattleShip-Flare\BattleShip-Flare\BattleShip-Flare-Console\bin\Debug\netcoreapp3.1\BattleShip-Flare-Console.deps.json
+C:\Dev\Virat\BattleShip-Flare\BattleShip-Flare\BattleShip-Flare-Console\bin\Debug\netcoreapp3.1\BattleShip-Flare-Console.runtimeconfig.json
+C:\Dev\Virat\BattleShip-Flare\BattleShip-Flare\BattleShip-Flare-Console\bin\Debug\netcoreapp3.1\BattleShip-Flare-Console.runtimeconfig.dev.json
+C:\Dev\Virat\BattleShip-Flare\BattleShip-Flare\BattleShip-Flare-Console\bin\Debug\netcoreapp3.1\BattleShip-Flare-Console.dll
+C:\Dev\Virat\BattleShip-Flare\BattleShip-Flare\BattleShip-Flare-Console\bin\Debug\netcoreapp3.1\BattleShip-Flare-Console.pdb
+C:\Dev\Virat\BattleShip-Flare\BattleShip-Flare\BattleShip-Flare-Console\obj\Debug\netcoreapp3.1\BattleShip-Flare-Console.csproj.AssemblyReference.cache
+C:\Dev\Virat\BattleShip-Flare\BattleShip-Flare\BattleShip-Flare-Console\obj\Debug\netcoreapp3.1\BattleShip-Flare-Console.AssemblyInfoInputs.cache
+C:\Dev\Virat\BattleShip-Flare\BattleShip-Flare\BattleShip-Flare-Console\obj\Debug\netcoreapp3.1\BattleShip-Flare-Console.AssemblyInfo.cs
+C:\Dev\Virat\BattleShip-Flare\BattleShip-Flare\BattleShip-Flare-Console\obj\Debug\netcoreapp3.1\BattleShip-Flare-Console.csproj.CoreCompileInputs.cache
+C:\Dev\Virat\BattleShip-Flare\BattleShip-Flare\BattleShip-Flare-Console\obj\Debug\netcoreapp3.1\BattleShip-Flare-Console.dll
+C:\Dev\Virat\BattleShip-Flare\BattleShip-Flare\BattleShip-Flare-Console\obj\Debug\netcoreapp3.1\BattleShip-Flare-Console.pdb
+C:\Dev\Virat\BattleShip-Flare\BattleShip-Flare\BattleShip-Flare-Console\obj\Debug\netcoreapp3.1\BattleShip-Flare-Console.genruntimeconfig.cache
+C:\Dev\Virat\BattleShip-Flare\BattleShip-Flare\BattleShip-Flare-Console\bin\Debug\netcoreapp3.1\BattleShip-Flare-ServiceLayer.dll
+C:\Dev\Virat\BattleShip-Flare\BattleShip-Flare\BattleShip-Flare-Console\bin\Debug\netcoreapp3.1\BattleShip-Flare-ServiceLayer.pdb
+C:\Dev\Virat\BattleShip-Flare\BattleShip-Flare\BattleShip-Flare-Console\obj\Debug\netcoreapp3.1\BattleShip-Flare-Console.csproj.CopyComplete

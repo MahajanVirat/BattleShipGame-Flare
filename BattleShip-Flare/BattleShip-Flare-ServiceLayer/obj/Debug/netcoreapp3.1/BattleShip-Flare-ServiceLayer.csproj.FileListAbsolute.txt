@@ -1,0 +1,9 @@
+C:\Dev\Virat\BattleShip-Flare\BattleShip-Flare\BattleShip-Flare-ServiceLayer\bin\Debug\netcoreapp3.1\BattleShip-Flare-ServiceLayer.deps.json
+C:\Dev\Virat\BattleShip-Flare\BattleShip-Flare\BattleShip-Flare-ServiceLayer\bin\Debug\netcoreapp3.1\BattleShip-Flare-ServiceLayer.dll
+C:\Dev\Virat\BattleShip-Flare\BattleShip-Flare\BattleShip-Flare-ServiceLayer\bin\Debug\netcoreapp3.1\BattleShip-Flare-ServiceLayer.pdb
+C:\Dev\Virat\BattleShip-Flare\BattleShip-Flare\BattleShip-Flare-ServiceLayer\obj\Debug\netcoreapp3.1\BattleShip-Flare-ServiceLayer.AssemblyInfoInputs.cache
+C:\Dev\Virat\BattleShip-Flare\BattleShip-Flare\BattleShip-Flare-ServiceLayer\obj\Debug\netcoreapp3.1\BattleShip-Flare-ServiceLayer.AssemblyInfo.cs
+C:\Dev\Virat\BattleShip-Flare\BattleShip-Flare\BattleShip-Flare-ServiceLayer\obj\Debug\netcoreapp3.1\BattleShip-Flare-ServiceLayer.csproj.CoreCompileInputs.cache
+C:\Dev\Virat\BattleShip-Flare\BattleShip-Flare\BattleShip-Flare-ServiceLayer\obj\Debug\netcoreapp3.1\BattleShip-Flare-ServiceLayer.dll
+C:\Dev\Virat\BattleShip-Flare\BattleShip-Flare\BattleShip-Flare-ServiceLayer\obj\Debug\netcoreapp3.1\BattleShip-Flare-ServiceLayer.pdb
+C:\Dev\Virat\BattleShip-Flare\BattleShip-Flare\BattleShip-Flare-ServiceLayer\obj\Debug\netcoreapp3.1\BattleShip-Flare-ServiceLayer.csproj.AssemblyReference.cache
